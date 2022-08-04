@@ -1,4 +1,4 @@
-def buildStatus    = "FAILED"
+def buildStatus    = "SUCCESS"
 def slackColor     = "warning"
 def slackChannelID = 'C035MHTT1SR'
 
