@@ -28,7 +28,5 @@ public class StepDefinitions {
       sum = calc.add(x,y);
   }
   @Then("the value should be {int}")
-  public void the_value_should_be(Integer int1) {
-    assertEquals(int1,sum);
-  }
+  public void the_value_should_be(Integer int1) {assertEquals(int1,sum);  }
 }
